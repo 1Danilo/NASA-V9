@@ -1,3 +1,5 @@
+$colorW: #fff;
+
 /*Acerca De*/
 .nav5 {
 	width: 90%;
@@ -25,7 +27,7 @@
 	}
 	a {
 		text-decoration: none;
-		color: #fff;
+		color: $colorW;
 		display: flex;
 		justify-content: space-between;
 		list-style: none;
@@ -51,7 +53,7 @@
 	width: 90%;
 	text-shadow: 5px 5px 10px #000;
 	display: grid;
-	color: #fff;
+	color: $colorW;
 }
 .acercatexto__titulo1 {
 	font-size: 250%;
@@ -80,7 +82,7 @@
 .acercatexto2 {
 	width: 90%;
 	display: grid;
-	color: #fff;
+	color: $colorW;
 }
 .acercatexto__titulo3 {
 	font-size: 250%;
@@ -111,7 +113,7 @@
 				flex-wrap: wrap;
 			}
 			a {
-				color: #fff;
+				color: $colorW;
 				text-decoration: none;
 			}
 		}

@@ -1,3 +1,5 @@
+$colorW: #fff;
+
 .nav3 {
 	width: 90%;
 	margin: 0 auto;
@@ -24,7 +26,7 @@
 	}
 	a {
 		text-decoration: none;
-		color: #fff;
+		color: $colorW;
 		display: flex;
 		justify-content: space-between;
 		list-style: none;
@@ -39,7 +41,7 @@
 	background-position: center;
 	h1 {
 		text-shadow: 5px 5px 10px #252422;
-		color: #fff;
+		color: $colorW;
 		font-size: 400%;
 		text-align: center;
 		padding: 180px 0 0 0;
@@ -62,17 +64,17 @@
 .fondo1_texto1 {
 	padding: 0 0 50px 0;
 	font-size: 100px;
-	color: white;
+	color: $colorW;
 }
 .fondo1_button1 {
 	font-size: 50px;
 	background: transparent;
 	padding: 10px 100px;
 	border-radius: 10px;
-	border-color: white;
+	border-color: $colorW;
 	a {
 		text-decoration: none;
-		color: white;
+		color: $colorW;
 	}
 }
 .btn1 {
@@ -82,9 +84,9 @@
 	border: 2px solid #fff;
 	text-align: left;
 	font-size: 250%;
-	color: #fff;
+	color: $colorW;
 	a {
-		color: #fff;
+		color: $colorW;
 		text-decoration: none;
 	}
 }
@@ -101,14 +103,14 @@
 .fondo2_texto2 {
 	padding: 80% 0 60px 0;
 	font-size: 110px;
-	color: white;
+	color: $colorW;
 }
 .fondo2_button2 {
 	font-size: 50px;
 	background: transparent;
 	padding: 10px 100px;
 	border-radius: 10px;
-	border-color: white;
+	border-color: $colorW;
 	a {
 		text-decoration: none;
 		color: white;
@@ -120,21 +122,21 @@
 }
 .fondo3_texto3 {
 	font-size: 100px;
-	color: white;
+	color: $colorW;
 	padding: 0 0 50px 0;
 	font-size: 100px;
-	color: white;
+	color: $colorW;
 }
 .btn2 {
 	width: 5%;
 	margin: 20px 0 0 10%;
 	padding: 10px 50px 10px 100px;
-	border: 2px solid #fff;
+	border: 2px solid $colorW;
 	text-align: left;
 	font-size: 250%;
-	color: #fff;
+	color: $colorW;
 	a {
-		color: #fff;
+		color: $colorW;
 		text-decoration: none;
 	}
 }
@@ -147,7 +149,7 @@
 	h1 {
 		font-size: 500%;
 		padding: 20% 10% 0 5%;
-		color: #fff;
+		color: $colorW;
 		text-align: left;
 	}
 }
@@ -156,22 +158,22 @@
 	background: transparent;
 	padding: 10px 100px;
 	border-radius: 10px;
-	border-color: white;
+	border-color: $colorW;
 	a {
 		text-decoration: none;
-		color: white;
+		color: $colorW;
 	}
 }
 .btn3 {
 	width: 5%;
 	margin: 20px 0 0 10%;
 	padding: 10px 50px 10px 100px;
-	border: 2px solid #fff;
+	border: 2px solid $colorW;
 	text-align: left;
 	font-size: 250%;
-	color: #fff;
+	color: $colorW;
 	a {
-		color: #fff;
+		color: $colorW;
 		text-decoration: none;
 	}
 }
@@ -184,7 +186,7 @@
 	h1 {
 		font-size: 270%;
 		padding: 30% 0% 0 5%;
-		color: #fff;
+		color: $colorW;
 		text-align: left;
 	}
 }
@@ -194,29 +196,29 @@
 .fondo4_texto4 {
 	font-size: 110px;
 	padding: 0 170px 40px 0;
-	color: white;
+	color: $colorW;
 }
 .fondo4_button4 {
 	font-size: 50px;
 	background: transparent;
 	padding: 10px 100px;
 	border-radius: 10px;
-	border-color: white;
+	border-color: $colorW;
 	a {
 		text-decoration: none;
-		color: white;
+		color: $colorW;
 	}
 }
 .btn4 {
 	width: 5%;
 	margin: 20px 0 0 10%;
 	padding: 10px 50px 10px 75px;
-	border: 2px solid #fff;
+	border: 2px solid $colorW;
 	text-align: left;
 	font-size: 250%;
-	color: #fff;
+	color: $colorW;
 	a {
-		color: #fff;
+		color: $colorW;
 		text-decoration: none;
 	}
 }
@@ -235,7 +237,7 @@
 				flex-wrap: wrap;
 			}
 			a {
-				color: #fff;
+				color: $colorW;
 				text-decoration: none;
 			}
 		}

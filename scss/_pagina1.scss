@@ -1,3 +1,5 @@
+$colorW:#fff;
+
 .nav1 {
 	width: 90%;
 	margin: 0 auto;
@@ -22,7 +24,7 @@
 	}
 	a {
 		text-decoration: none;
-		color: #fff;
+		color: $colorW;
 		display: flex;
 		justify-content: space-between;
 		list-style: none;
@@ -48,7 +50,7 @@
 	grid-template-columns: 1fr 1fr;
 	&__parrafo {
 		width: 90%;
-		color: #fff;
+		color: $colorW;
 		padding: 25px 0 0 20px;
 		text-align: left;
 		font-size: 150%;
@@ -97,7 +99,7 @@
 .titulo__fecha {
 	width: 100%;
 	height: 100%;
-	color: #fff;
+	color: $colorW;
 	font-size: 250%;
 	text-align: center;
 	align-items: center;
@@ -106,7 +108,7 @@
 .titulo__parrafo {
 	width: 90%;
 	height: 50%;
-	color: #fff;
+	color: $colorW;
 	text-align: left;
 	align-items: center;
 	display: grid;
@@ -138,7 +140,7 @@
 	height: 150vh;
 	&__titulo {
 		font-size: 450%;
-		color: #fff;
+		color: $colorW;
 		padding: 50px 0 50px 0px;
 		text-align: center;
 	}
@@ -148,7 +150,7 @@
 	background-color: #0582CA;
 	&__titulo {
 		padding: 50px 0 50px 50px;
-		color: #fff;
+		color: $colorW;
 		font-size: 550%;
 		font-weight: bold;
 	}
@@ -175,7 +177,7 @@
 	padding: 0 0 0 50px;
 }
 .cajanasa a {
-	color: #fff;
+	color: $colorW;
 	text-decoration: none;
 }
 .cajanasa img {
@@ -185,7 +187,7 @@
 	padding: 25px 0 20px 0px;
 }
 .bton button {
-	color: #fff;
+	color: $colorW;
 	background-color: #f22b29;
 	border: none;
 	border-radius: 10px;
@@ -196,7 +198,7 @@
 	padding: 20px 0 0 0;
 }
 .nasa-es a {
-	color: #fff;
+	color: $colorW;
 	text-decoration: none;
 }
 .nasa-es img {

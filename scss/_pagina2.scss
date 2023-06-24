@@ -1,3 +1,4 @@
+$colorW: #fff;
 .nav2 {
 	width: 90%;
 	margin: 0 auto;
@@ -24,7 +25,7 @@
 	}
 	a {
 		text-decoration: none;
-		color: #fff;
+		color: $colorW;
 		display: flex;
 		justify-content: space-between;
 		list-style: none;
@@ -41,7 +42,7 @@
 	background-position-y: center;
 	background-attachment: fixed;
 	h1 {
-		color: #fff;
+		color: $colorW;
 		text-shadow: 5px 5px 10px #252422;
 		padding: 10%;
 		font-size: 550%;
@@ -99,10 +100,10 @@
 	background-size: cover;
 	border-radius: 5px;
 	border-style: double;
-	border-color: #fff;
+	border-color: $colorW;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	p {
-		color: #fff;
+		color: $colorW;
 		font-size: 150%;
 		text-align: center;
 		padding: 80% 0;
@@ -120,7 +121,7 @@
 	border-color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	p {
-		color: #fff;
+		color: $colorW;
 		font-size: 150%;
 		text-align: center;
 		padding: 80% 0;
@@ -135,10 +136,10 @@
 	background-size: cover;
 	border-radius: 5px;
 	border-style: double;
-	border-color: #fff;
+	border-color: $colorW;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	p {
-		color: #fff;
+		color: $colorW;
 		font-size: 150%;
 		text-align: center;
 		padding: 80% 0;
@@ -153,10 +154,10 @@
 	background-size: cover;
 	border-radius: 5px;
 	border-style: double;
-	border-color: #fff;
+	border-color: $colorW;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	p {
-		color: #fff;
+		color: $colorW;
 		font-size: 150%;
 		text-align: center;
 		padding: 80% 0;
@@ -177,7 +178,7 @@
 				flex-wrap: wrap;
 			}
 			a {
-				color: #fff;
+				color: $colorW;
 				text-decoration: none;
 			}
 		}

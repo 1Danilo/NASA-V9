@@ -1,3 +1,5 @@
+$colorW: #fff;
+
 .nav4 {
 	width: 90%;
 	margin: 0 auto;
@@ -24,7 +26,7 @@
 	}
 	a {
 		text-decoration: none;
-		color: #fff;
+		color: $colorW;
 		display: flex;
 		justify-content: space-between;
 		list-style: none;
@@ -38,7 +40,7 @@
 }
 .titulo-galeria {
 	h1 {
-		color: #fff;
+		color: $colorW;
 		padding: 20px;
 		text-align: center;
 	}
