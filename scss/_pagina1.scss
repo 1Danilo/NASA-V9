@@ -1,0 +1,225 @@
+.nav1 {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-img1 img {
+	width: 20%;
+	padding: 30px 0 0 0;
+}
+.ul1 {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding: 0.7em;
+	li {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		text-align: center;
+		padding: 0.7em;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		text-align: center;
+		padding: 0.7em;
+		transition: all 5s;
+	}
+}
+.seccion-video {
+	height: 108vh;
+}
+.video {
+	width: 100%;
+}
+.nuevostrajes-principal {
+	height: 90vh;
+	background: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
+	background-attachment: fixed;
+}
+.caja-trajes {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	&__parrafo {
+		width: 90%;
+		color: #fff;
+		padding: 25px 0 0 20px;
+		text-align: left;
+		font-size: 150%;
+		&1 {
+			font-size: 250%;
+			padding: 0 0 10px 20px;
+		}
+		&2 {
+			font-size: 80%;
+			padding: 10px 0 0px 20px;
+		}
+	}
+	&__img {
+		margin: 0 auto;
+		align-items: center;
+		display: grid;
+		img {
+			padding: 25px 0 0 90px;
+			width: 75%;
+		}
+	}
+}
+.ultimanoticia {
+	background-color: #403d39;
+}
+.titulonew {
+	color: #fff;
+	font-size: 350%;
+	padding: 20px;
+}
+.box-principal {
+	height: 220vh;
+	background-color: #403d39;
+	&__titulo {
+		padding: 25px 0 25px 80px;
+		color: #fff;
+		font-size: 350%;
+	}
+}
+.l1 {
+	margin: 0 0 50px 0;
+	background-color: #0582CA;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.titulo__fecha {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 250%;
+	text-align: center;
+	align-items: center;
+	display: grid;
+}
+.titulo__parrafo {
+	width: 90%;
+	height: 50%;
+	color: #fff;
+	text-align: left;
+	align-items: center;
+	display: grid;
+	&1 {
+		font-weight: bold;
+	}
+	&3 {
+		font-weight: bold;
+	}
+	&5 {
+		font-weight: bold;
+	}
+}
+.titulo__img1 img {
+	width: 90%;
+	padding: 30px 0 0 0;
+}
+.titulo__img2 img {
+	width: 90%;
+	padding: 80px 0 0 0;
+}
+.titulo__img3 {
+	padding: 20px 0 20px 0;
+	img {
+		width: 90%;
+	}
+}
+.galeria {
+	height: 150vh;
+	&__titulo {
+		font-size: 450%;
+		color: #fff;
+		padding: 50px 0 50px 0px;
+		text-align: center;
+	}
+}
+.nasatv {
+	height: 190vh;
+	background-color: #0582CA;
+	&__titulo {
+		padding: 50px 0 50px 50px;
+		color: #fff;
+		font-size: 550%;
+		font-weight: bold;
+	}
+	&-grid1 {
+		display: grid;
+		justify-content: center;
+		text-align: center;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	&-grid2 {
+		padding: 0 0 0 50px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+	}
+	&-grid3 {
+		padding: 0 0 0 50px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+	}
+}
+.directo1 {
+	padding: 0 0 0 50px;
+}
+.cajanasa a {
+	color: #fff;
+	text-decoration: none;
+}
+.cajanasa img {
+	border-radius: 100px;
+}
+.txtnasa1 {
+	padding: 25px 0 20px 0px;
+}
+.bton button {
+	color: #fff;
+	background-color: #f22b29;
+	border: none;
+	border-radius: 10px;
+	font-size: 160%;
+	padding: 0 10px 0 10px;
+}
+.txtnasa2 {
+	padding: 20px 0 0 0;
+}
+.nasa-es a {
+	color: #fff;
+	text-decoration: none;
+}
+.nasa-es img {
+	border-radius: 100px;
+}
+.directo1 {
+	width: 50%;
+}
+.foot {
+	display: flex;
+	justify-content: center;
+	div ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		padding: 0.7em;
+		li {
+			padding: 0.7em;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+}

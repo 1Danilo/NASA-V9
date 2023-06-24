@@ -1,0 +1,119 @@
+/*Acerca De*/
+.nav5 {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav5-img {
+	img {
+		width: 20%;
+		padding: 30px 0 0 0;
+	}
+}
+.ul5 {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding: 0.7em;
+	li {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		text-align: center;
+		padding: 0.7em;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		text-align: center;
+		padding: 0.7em;
+	}
+}
+.contenedoracerca-de {
+	background: linear-gradient(115deg, rgb(211, 255, 215) 0%, rgb(0, 0, 0) 100%), radial-gradient(90% 100% at 50% 0%, rgb(200, 200, 200) 0%, rgb(22, 0, 45) 100%), radial-gradient(100% 100% at 80% 0%, rgb(250, 255, 0) 0%, rgb(36, 0, 0) 100%), radial-gradient(150% 210% at 100% 0%, rgb(112, 255, 0) 0%, rgb(20, 175, 125) 0%, rgb(0, 10, 255) 100%), radial-gradient(100% 100% at 100% 30%, rgb(255, 77, 0) 0%, rgba(0, 200, 255, 1) 100%), linear-gradient(60deg, rgb(255, 0, 0) 0%, rgb(120, 86, 255) 100%);
+	background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+}
+.acerca1 {
+	width: 90%;
+	margin: 0 auto;
+	padding: 5% 0 0 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	gap: 0.7em;
+}
+.acercatexto {
+	width: 90%;
+	text-shadow: 5px 5px 10px #000;
+	display: grid;
+	color: #fff;
+}
+.acercatexto__titulo1 {
+	font-size: 250%;
+	padding: 0 0 5% 0;
+}
+.acercatexto__parrafo2 {
+	line-height: 150%;
+}
+.acerca-img {
+	img {
+		width: 100%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
+.acerca2 {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10% 0 20% 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	gap: 2.7em;
+}
+.acercatexto2 {
+	width: 90%;
+	display: grid;
+	color: #fff;
+}
+.acercatexto__titulo3 {
+	font-size: 250%;
+	padding: 0 0 5% 0;
+}
+.acercatexto__parrafo4 {
+	line-height: 150%;
+}
+.acerca-img2 {
+	img {
+		width: 100%;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
+.foot {
+	display: flex;
+	justify-content: center;
+	div {
+		ul {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			padding: 20px 0 0 0;
+			li {
+				padding: 0.7em;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+}

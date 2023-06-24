@@ -1,0 +1,25 @@
+@media screen and (max-width: 450px) {
+	.fondo-galeria {
+		height: 290vh;
+	}
+	.nav4 {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav4-img {
+		img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 80%;
+			padding: 21px 0 0 85px;
+			margin: 0 50px 0 0;
+		}
+	}
+	.ul4 {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding: 0 0 0 55px;
+	}
+}

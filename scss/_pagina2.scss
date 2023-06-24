@@ -1,0 +1,185 @@
+.nav2 {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-img2 {
+	img {
+		width: 20%;
+		padding: 30px 0 0 0;
+	}
+}
+.ul2 {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding: 0.7em;
+	li {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		text-align: center;
+		padding: 0.7em;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		text-align: center;
+		padding: 0.7em;
+	}
+}
+.banner-temas {
+	height: 75vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../assets/temas/Footer2.jpg");
+	background-position-x: center;
+	background-position-y: center;
+	background-attachment: fixed;
+	h1 {
+		color: #fff;
+		text-shadow: 5px 5px 10px #252422;
+		padding: 10%;
+		font-size: 550%;
+		text-align: center;
+	}
+}
+.fondo-contenido {
+	background-color: #CCC5B9;
+}
+.subnav {
+	.todoblog {
+		.listas {
+			padding: 0.7em;
+			display: flex;
+			justify-content: flex-start;
+			li {
+				list-style: none;
+				display: flex;
+				padding: 0.7em;
+				a {
+					font-size: 150%;
+					text-decoration: none;
+					color: #252422;
+				}
+				:hover {
+					text-decoration: underline #252422;
+				}
+			}
+		}
+	}
+}
+.blog__titulo {
+	color: #252422;
+	font-size: 215%;
+	display: flex;
+	justify-content: flex-start;
+	padding: 20px 0 25px 120px;
+}
+.blog {
+	height: 85vh;
+}
+.cardgeneral {
+	width: 80%;
+	padding: 35px 0 0 0;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.card1 {
+	width: 85%;
+	height: 50vh;
+	background-image: url("../assets/temas/humano_en_espacio.jpg");
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+	border-radius: 5px;
+	border-style: double;
+	border-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	p {
+		color: #fff;
+		font-size: 150%;
+		text-align: center;
+		padding: 80% 0;
+	}
+}
+.card2 {
+	width: 85%;
+	height: 50vh;
+	background-image: url("../assets/temas/marte.jpg");
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+	border-radius: 5px;
+	border-style: double;
+	border-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	p {
+		color: #fff;
+		font-size: 150%;
+		text-align: center;
+		padding: 80% 0;
+	}
+}
+.card3 {
+	width: 85%;
+	height: 50vh;
+	background-image: url("../assets/temas/tierra.jpg");
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+	border-radius: 5px;
+	border-style: double;
+	border-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	p {
+		color: #fff;
+		font-size: 150%;
+		text-align: center;
+		padding: 80% 0;
+	}
+}
+.card4 {
+	width: 85%;
+	height: 50vh;
+	background-image: url("../assets/temas/sistemasolar.jpg");
+	background-position-x: center;
+	background-position-y: center;
+	background-size: cover;
+	border-radius: 5px;
+	border-style: double;
+	border-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	p {
+		color: #fff;
+		font-size: 150%;
+		text-align: center;
+		padding: 80% 0;
+	}
+}
+.foot {
+	display: flex;
+	justify-content: center;
+	div {
+		ul {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			padding: 20px 0 0 0;
+			li {
+				padding: 0.7em;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+}

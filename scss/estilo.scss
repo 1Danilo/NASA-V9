@@ -1,0 +1,22 @@
+@import "pagina1";
+@import "pagina1responsive";
+@import "pagina2";
+@import "pagina2responsive";
+@import "pagina3";
+@import "pagina3responsive";
+@import "pagina4";
+@import "pagina4responsive";
+@import "pagina5";
+@import "pagina5responsive";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252422;
+  font-family: 'Barlow', sans-serif;
+}
